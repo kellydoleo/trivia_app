@@ -1,3 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=VT323&display=swap');
+
+html {
+  background-color: #F8EAF3;
+
+}
+
+img{
+z-index: -1;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 0px 0px 10px;
+
+position: absolute;
+width: 752px;
+height: 920px;
+left: -10px;
+top: -10px;
+
+}
+
+.website-rec-3 {
+  background: #F1A5D6;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 59px 129px 0px 10px;
+z-index: -1;
+}
+
+.website-rec {
+
+  background: #FFFFFF;
+  border: 5px solid #2938FA;
+  box-sizing: border-box;
+  padding: 5% 0;
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.website-rec-2 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 0px 0px 10px;
+background: #FFFFFF;
+border: 6px solid #2938FA;
+box-sizing: border-box;
+margin-left: 21%;
+margin-right: 21%;
+margin-top: 3%;
+font-family: 'VT323', monospace;
+color:  #2938FA;
+font-size: 36px;
+line-height: 36px;
+}
+
+.v-font {
+  font-family: 'VT323', monospace;
+color:  #2938FA;
+text-align: center;
+}
+
+.score-area{
+  
+  text-align: center;
+  background: #FFFFFF;
+  border: 5px solid #2938FA;
+  box-sizing: border-box;
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 10px;
+
+}
+
+.website-cir {
+z-index: 1;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 0px 0px 10px;
+
+top: 4%;
+    left: 2%;
+position: absolute;
+width: 14.52px;
+    height: 14.83px;
+
+border-radius: 50%;
+
+}
+
+.website-cir-2 {
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0px 0px 10px;
+  
+  top: 4%;
+      left: 4%;
+  position: absolute;
+  width: 14.52px;
+      height: 14.83px;
+  
+  border-radius: 50%;
+  
+  }
+
+  .website-cir-3 {
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px 0px 10px;
+    
+    top: 4%;
+        left: 6%;
+    position: absolute;
+    width: 14.52px;
+        height: 14.83px;
+    
+    border-radius: 50%;
+    
+    }
+
+.emblema-font {
+  font-family: 'Emblema One', cursive;
+  color: #2938FA;
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +182,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.cursor {
+  cursor: pointer;
 }
