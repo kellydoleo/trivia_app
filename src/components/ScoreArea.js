@@ -5,8 +5,7 @@ import TotalIncorrect from "./TotalIncorrect"
 const ScoreArea = (props) => {
     return(
         <>
-        
-        <div className="score-area emblema-font" >
+        <div className="score-area emblema-font" data-testid="score-area">
         <div className="website-cir" ></div>
         <div className="website-cir-2" ></div>
         <div className="website-cir-3" ></div>
@@ -18,4 +17,4 @@ const ScoreArea = (props) => {
     )
 }
 
-export default ScoreArea
+export default ScoreArea;
